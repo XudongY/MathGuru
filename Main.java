@@ -3,6 +3,14 @@ package XudongYu;
 import java.util.Scanner;
 
 public class Main {
+    public static void question1(int a) {
+    }
+
+    public static void question2(int a) {
+    }
+
+    public static void question3(int a) {
+    }
 
     public static void main(String[] args) {
         // write your code here
@@ -23,30 +31,13 @@ public class Main {
             }
             switch (option) {
                 case 1:
-                    int sum = 1;
-                    for (int i = 0; i < value; i++) {
-                        sum *= 2;
-                    }
-                    System.out.println(sum);
+                    question1(value);
                     break;
                 case 2:
-                    int index = value;
-                    for (int i = 0; i < index - 1; ++i) {
-                        System.out.print(value-- + "*");
-                    }
-                    System.out.println(value);
+                    question2(value);
                     break;
                 case 3:
-                    int[] fab = new int[21];
-                    for (int i = 2; i <= 20; ++i) {
-                        fab[0] = 1;
-                        fab[1] = 1;
-                        fab[i] = fab[i - 1] + fab[i - 2];
-                    }
-                    for (int i = 0; i < value; ++i) {
-                        System.out.print(fab[i] + ",");
-                    }
-                    System.out.println(fab[value]);
+                    question3(value);
                     break;
             }
             System.out.println("Do you want another calculation ?");
