@@ -11,6 +11,7 @@ public class Main {
     }
     public  static  void question2(int a) {
         System.out.println("do some test");
+        System.out.println("do some test1");
     }
 
     public static void question3(int a) {
