@@ -14,6 +14,7 @@ public class Main {
     }
     public static void question3(int a) {
         System.out.println("test 1212");
+        System.out.println("sdsda");
     }
 
 
