@@ -8,13 +8,15 @@ public class Main {
     }
 
     public static void question3(int a) {
+        if (a <= 1) return a;
+        else return question3(n-1); + question3(n-2);
     }
 
     public static void main(String[] args) {
         // write your code here
         while (true) {
-            System.out.println("Please choose your option of calculation");
-            System.out.println("1 2 or 3");
+            System.out.println("1. 2^n" + "\n" +  "2. n!" + "\n" + "3. nth fabonacci");
+            System.out.println("Please choose your option of calculation: ");
             Scanner scanner = new Scanner(System.in);
             int option = scanner.nextInt();
             int value;
