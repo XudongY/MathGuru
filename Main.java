@@ -8,7 +8,7 @@ public class Main {
 
     }
     public static void question3(int a) {
-        System.out.println("test 111122");
+        System.out.println("test 1212");
     }
 
 
