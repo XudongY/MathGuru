@@ -11,7 +11,7 @@ public class Main {
         System.out.println(fib(a));
     }
     
-    public static void fib(int a) {
+    public static int fib(int a) {
         if (a <= 1) return a;
         else return fib(a-1); + fib(a-2);
     }
