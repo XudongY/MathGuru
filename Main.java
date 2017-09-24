@@ -13,6 +13,11 @@ public class Main {
         System.out.println("do some test");
         System.out.println("do some test1");
         System.out.println("do some test2");
+        double res = Math.pow(2,a);
+        String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
+        if(res>0 || res<Double.MAX_VALUE){
+            System.out.println("2^"+a+" = "+result);
+        }
     }
 
     public static void question3(int a) {
