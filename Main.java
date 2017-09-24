@@ -13,7 +13,7 @@ public class Main {
         System.out.println("test again");
     }
     public static void question3(int a) {
-
+        System.out.println("test 1212");
     }
 
 
