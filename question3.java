@@ -1,7 +1,7 @@
 /**
  * Created by chenglinwu on 22/09/2017.
  */
-
+import java.util.*;
 public class question3 {
     public long fibonacci(int K) {
         long a = 0;
@@ -14,6 +14,7 @@ public class question3 {
             a = b;
             b = temp;
             K--;
+            System.out.println(temp);
         }
         return b;
     }
