@@ -20,8 +20,6 @@ public class Main {
         if (a <= 1) return a;
         else return fib(a-1) + fib(a-2);
     }
-
-3
     public static void main(String[] args) {
         // write your code here
         while (true) {
