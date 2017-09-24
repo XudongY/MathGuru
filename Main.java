@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,7 +6,7 @@ public class Main {
 
     }
     public  static  void question2(int a) {
-
+        System.out.println("test again");
     }
     public static void question3(int a) {
         System.out.println("test 1212");
