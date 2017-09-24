@@ -1,10 +1,9 @@
-package XudongYu;
 
 import java.util.Scanner;
 
 public class Main {
     public static void question1(int a ) {
-
+        System.out.println("test again");
     }
     public  static  void question2(int a) {
 
@@ -39,7 +38,7 @@ public class Main {
                     question2(value);
                     break;
                 case 3:
-                    System.out.printlin(question3(value));
+                    question3(value);
                     break;
             }
             System.out.println("Do you want another calculation ?");
