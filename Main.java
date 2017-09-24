@@ -10,11 +10,12 @@ public class Main {
         }
     }
     public  static  void question2(int a) {
-
+        System.out.println("test");
     }
 
     public static void question3(int a) {
-        System.out.println(fib(a));
+        System.out.println(fib(a))
+        ;
     }
     public static int fib(int a) {
         if (a <= 1) return a;
