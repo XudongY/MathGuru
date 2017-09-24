@@ -14,6 +14,7 @@ public class Main {
     public static int fib(int a) {
         if (a <= 1) return a;
         else return fib(a-1) + fib(a-2);
+        System.out.println("1. 2^n" + "\n" +  "2. n!" + "\n" + "3. nth fabonacci");
     }
 
     public static void main(String[] args) {
