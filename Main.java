@@ -10,7 +10,7 @@ public class Main {
         }
     }
     public  static  void question2(int a) {
-        System.out.println("test");
+        System.out.println("tes111t");
     }
 
     public static void question3(int a) {
