@@ -12,12 +12,16 @@ public class Main {
     public  static  void question2(int a) {
         System.out.println("test again");
     }
+
     public static void question3(int a) {
-        System.out.println("test 1212");
-        System.out.println("sdsda");
+        System.out.println(fib(a));
+    }
+    public static int fib(int a) {
+        if (a <= 1) return a;
+        else return fib(a-1) + fib(a-2);
     }
 
-
+3
     public static void main(String[] args) {
         // write your code here
         while (true) {
