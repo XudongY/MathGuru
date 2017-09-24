@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void question1(int a) {
+        System.out.println("question1");
     }
 
     public static void question2(int a) {
