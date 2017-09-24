@@ -35,7 +35,7 @@ public class Main {
                     question2(value);
                     break;
                 case 3:
-                    question3(value);
+                    System.out.printlin(question3(value));
                     break;
             }
             System.out.println("Do you want another calculation ?");
