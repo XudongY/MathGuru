@@ -13,7 +13,7 @@ public class Main {
     
     public static void fib(int a) {
         if (a <= 1) return a;
-        else return question3(n-1); + question3(n-2);
+        else return fib(n-1); + fib(n-2);
     }
 
     public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class Main {
                     question2(value);
                     break;
                 case 3:
-                    System.out.printlin(question3(value));
+                    question3(value);
                     break;
             }
             System.out.println("Do you want another calculation ?");
