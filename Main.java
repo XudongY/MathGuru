@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-<<<<<<< HEAD
+
 public class Main {
     public static void question1(int a) {
         double res = Math.pow(2, a);
@@ -24,35 +24,6 @@ public class Main {
         else return fib(a - 1) + fib(a - 2);
     }
 
-=======
-public class Main{
-    public static void question1(int a ) {
-        double res = Math.pow(2,a);
-        String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
-        if(res>0 || res<Double.MAX_VALUE){
-            System.out.println("2^"+a+" = "+result);
-        }
-    }
-    public  static  void question2(int a) {
-        //write Disha_homework_3
-        double res = Math.pow(2,a);
-        String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
-        if(res>0 || res<Double.MAX_VALUE){
-            System.out.println("2^"+a+" = "+result);
-        }
-    }
-
-    public static int question3(int a) {
-        int fac=1;
-		if(a==0)
-			{return  1;}
-		else
-			{
-            return(a*question3(a-1)); 
-				}
-    }
-   
->>>>>>> Disha_homework_3
     public static void main(String[] args) {
         // write your code here
         while (true) {
