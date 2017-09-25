@@ -9,12 +9,8 @@ public class Main{
             System.out.println("2^"+a+" = "+result);
         }
     }
-    public  static  void question2(int a) {
 
-     
-    }
-
-    public static int question3(int a) {
+    public static int question2(int a) {
 	    //write by disha
         int fac=1;
 		if(a==0)
@@ -24,7 +20,11 @@ public class Main{
             return(a*question3(a-1));
 				}
     }
+	
+    public  static  void question3(int a) {
 
+     
+    }
 
 
     public static void main(String[] args) {
