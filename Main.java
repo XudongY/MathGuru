@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+
 public class Main{
     public static void question1(int a ) {
         double res = Math.pow(2,a);
@@ -23,10 +24,11 @@ public class Main{
 			{return  1;}
 		else
 			{
-            return(a*question3(a-1)); 
+            return(a*question3(a-1));
 				}
     }
-   
+
+
 
     public static void main(String[] args) {
         // write your code here
