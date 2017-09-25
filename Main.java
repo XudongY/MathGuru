@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class Main{
     public static void question1(int a ) {
         double res = Math.pow(2,a);
         String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
@@ -17,13 +17,16 @@ public class Main {
         }
     }
 
-    public static void question3(int a) {
-        System.out.println(fib(a));
+    public static int question3(int a) {
+        int fac=1;
+		if(a==0)
+			{return  1;}
+		else
+			{
+            return(a*question3(a-1)); 
+				}
     }
-    public static int fib(int a) {
-        if (a <= 1) return a;
-        else return fib(a-1) + fib(a-2);
-    }
+   
     public static void main(String[] args) {
         // write your code here
         while (true) {
@@ -49,7 +52,8 @@ public class Main {
                     question2(value);
                     break;
                 case 3:
-                    question3(value);
+                    int total=question3(value);
+                     System.out.println("\nThe factorial of "+value+" is: "+total);
                     break;
             }
             System.out.println("Do you want another calculation ?");
