@@ -10,16 +10,23 @@ public class Main {
         }
     }
     public  static  void question2(int a) {
-
-        System.out.println("test again");
-        System.out.println("test zhaoyutong");
+        System.out.println("do some test");
+        System.out.println("do some test1");
+        System.out.println("do some test2");
+        double res = Math.pow(2,a);
+        String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
+        if(res>0 || res<Double.MAX_VALUE){
+            System.out.println("2^"+a+" = "+result);
+        }
     }
+
     public static void question3(int a) {
-        System.out.println("test 1212");
-        System.out.println("sdsda");
+        System.out.println(fib(a));
     }
-
-
+    public static int fib(int a) {
+        if (a <= 1) return a;
+        else return fib(a-1) + fib(a-2);
+    }
     public static void main(String[] args) {
         // write your code here
         while (true) {
