@@ -11,8 +11,6 @@ public class Main {
     }
     public  static  void question2(int a) {
 
-        System.out.println("test again");
-        System.out.println("test zhaoyutong");
     }
 
     public static void question3(int a) {
