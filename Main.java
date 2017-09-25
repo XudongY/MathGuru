@@ -13,6 +13,8 @@ public class Main {
 
     public static void question2(int a) {
         System.out.println("yutong1");
+        System.out.println("yutong1");System.out.println("yutong1");
+
     }
 
     public static void question3(int a) {
