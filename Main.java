@@ -9,7 +9,7 @@ public class Main{
             System.out.println("2^"+a+" = "+result);
         }
     }
-
+  
     public static int question2(int a) {
 	    //write by disha
         int fac=1;
