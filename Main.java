@@ -9,15 +9,12 @@ public class Main{
         }
     }
     public  static  void question2(int a) {
-        //write Disha_homework_3
-        double res = Math.pow(2,a);
-        String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
-        if(res>0 || res<Double.MAX_VALUE){
-            System.out.println("2^"+a+" = "+result);
-        }
+
+     
     }
 
     public static int question3(int a) {
+	    //write by disha
         int fac=1;
 		if(a==0)
 			{return  1;}
