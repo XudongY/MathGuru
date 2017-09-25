@@ -1,7 +1,8 @@
 
 import java.util.Scanner;
 
-public class Main {
+
+public class Main{
     public static void question1(int a ) {
         double res = Math.pow(2,a);
         String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
@@ -9,13 +10,22 @@ public class Main {
             System.out.println("2^"+a+" = "+result);
         }
     }
-    public  static  void question2(int a) {
-
+  
+    public static int question2(int a) {
+	    //write by disha
+        int fac=1;
+		if(a==0)
+			{return  1;}
+		else
+			{
+            return(a*question2(a-1));
+				}
     }
-
-    public static void question3(int a) {
+	
+    public  static  void question3(int a) {
         System.out.println(fib(a));
     }
+
     public static int fib(int a) {
         if (a <= 1) return a;
         else return fib(a-1) + fib(a-2);
