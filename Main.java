@@ -12,7 +12,7 @@ public class Main{
         }
     }
   
-    public static int question2(int a) {
+    public static void question2(int a) {
 	    //write by disha
        Scanner input=new Scanner(System.in);
 		System.out.print("Please enter an positive integer to calculate its factorial(n!) : ");
