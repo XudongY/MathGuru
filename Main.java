@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main{
     public static void question1(int a ) {
+	    //write by yutong zhao
         double res = Math.pow(2,a);
         String result = String.valueOf(res).substring(0, (String.valueOf(res)).length()-2);
         if(res>0 || res<Double.MAX_VALUE){
@@ -23,6 +24,7 @@ public class Main{
     }
 	
     public  static  void question3(int a) {
+	    //write by chenglin Wu
         System.out.println(fib(a));
     }
 
