@@ -37,6 +37,9 @@ public class Main{
         while (true) {
             System.out.println("Please choose your option of calculation");
             System.out.println("1 2 or 3");
+            System.out.println("1.For example, when n = 3, the output is 8 ");
+            System.out.println("2 For example, with input n = 5. For example, 5! = 5*4*3*2*1");
+            System.out.println("3 For example fab(n) with input n = 8.  1, 1, 2, 3, 5, 8, 13, 21, 34");
             Scanner scanner = new Scanner(System.in);
             int option = scanner.nextInt();
             int value;
